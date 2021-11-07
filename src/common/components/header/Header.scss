@@ -1,0 +1,26 @@
+.header {
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 2.5% 75% 20% 2.5%;
+  grid-template-rows: 10vh;
+  align-items: center;
+  justify-content: first baseline;
+  box-shadow: 0 -1px 8px 0 grey;
+  border-bottom: 1px solid #EEEEEE;
+  font-family: roboto;
+  font-weight: 400;
+  text-align: center;
+  .align_left{
+      text-align: center;
+      font-size: 2em;
+      width: 100vw;
+      span{
+        text-transform: uppercase;
+      }
+  }
+  img{
+    height: 80%;
+    width: 80%;
+    object-fit: scale-down;
+  }
+}

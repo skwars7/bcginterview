@@ -1,0 +1,59 @@
+.otherBody{
+    .inline_left{
+        display: inline-block;
+        width: 15%;
+    }
+    .inline{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+    }
+    .back{
+        margin: 0 0 10px 0;
+    }
+    .item_details{
+        width: 100%;
+        font-weight: 400;
+        font-family: roboto;
+        img{
+            height: 50%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .title{
+            font-family: roboto;
+            text-transform: uppercase;
+            color: #101324;
+            font-size: 1em;
+            font-weight: 800;
+        }
+        .ingredients{
+            font-family: roboto;
+            color: #949494;
+            margin: 0 0 1em 0;
+            font-size: 0.9em;
+        }
+        .price{
+            font-family: roboto;
+            color: #6CC588;
+            font-weight: 500;
+        }
+        .price::after{
+            content: " \20B9";
+        }
+    }
+    .button{
+        background: #FFA41C;
+        background-color: #ff8f00b0;
+        border-radius: 12px;
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+    }
+    .booknow{
+        background: #0a65fe;
+        background-color: #0a65fea8;
+        color: #eeeeee;
+    }
+}
