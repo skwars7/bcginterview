@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component,PureComponent } from "react";
 import "./home.scss";
 import DataTable from "react-data-table-component";
