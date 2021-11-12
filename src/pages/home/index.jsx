@@ -228,7 +228,8 @@ class Home extends Component {
         </BarChart>
         <div style={{width:'5em',display:'inline-block'}}></div>
         <PieChart width={400} height={400}>
-          <Pie data={this.state.mond_pie}  dataKey="premium" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label >
+          {console.log(this.state.mond_pie)}
+          <Pie data={this.state.mond_pie} nameKey="month_of_purchase"  dataKey="premium" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label >
             {this.state.mond_pie.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
